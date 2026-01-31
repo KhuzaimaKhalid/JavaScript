@@ -1,0 +1,21 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "isStudent": false,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
+    },
+    "phoneNumbers": [
+        {
+        "type": "home",
+        "number": "555-1234"
+        },
+        {
+        "type": "work",
+        "number": "555-5678"
+        }
+    ],
+    "courses": ["Math", "Science", "History"]
+}
