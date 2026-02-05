@@ -1,4 +1,4 @@
-class heapSort{
+class heapSort_maxHeap{
     heapify(arr,n,i){
         let largest = i
         let l = 2*i+1
@@ -44,7 +44,7 @@ class heapSort{
     }
 }
 
-h = new heapSort()
+h = new heapSort_maxHeap()
 console.log("Heap Sort - Max Heap")
 let arr6 = [9, 4, 3, 8, 10, 2, 5]
 h.heapSort(arr6)
